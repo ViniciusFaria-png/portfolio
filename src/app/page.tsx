@@ -1,8 +1,11 @@
+import Button from "@/components/atoms/Button";
+
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <section id="HERO">
+          {/* title */}
           <div>
             <h1 className="text-3xl sm:text-4xl xl:text-5xl font-bold tracking-tight leading-snug flex flex-wrap gap-x-2">
               <span className="relative inline-block">
@@ -19,9 +22,11 @@ export default function Home() {
               </span>
             </h1>
           </div>
+          {/* text */}
           <p className="text-sm sm:text-base md:tex-lg text-gray-400 max-w-xl leading-relaxed font-light">
             Transformo ideias em solucoes tecnológicas robustas e escaláveis.
           </p>
+          {/* skills */}
           <div className="flex flex-wrap gap-3 mt-5">
             <span className="px-3 py-1.5 sm:block rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm text-gray-400 hover:bg-white/30 transition-colors">
               Node.js
@@ -45,33 +50,25 @@ export default function Home() {
               Java
             </span>
           </div>
-
+          {/* buttons */}
           <div className="flex flex-row gap-3 mt-5  flex-wrap">
             <a href="#PORTFOLIO">
-              <button className="px-3 py-1.5 rounded-2xl gap-3 bg-white/10 hover:bg-white/20 border border-white/20">
-                Projetos
-              </button>
+              <Button>Projeto</Button>
             </a>
             <a href="#CONTATO">
-              <button className="px-3 py-1.5 rounded-2xl gap-3 bg-white/10 hover:bg-white/20 border border-white/20">
-                Contato
-              </button>
+              <Button>Contato</Button>
             </a>
           </div>
 
           <div className="flex flex-row gap-3 mt-5 flex-wrap">
             <a href="https://github.com/ViniciusFaria-png" target="_blank">
-              <button className="px-3 py-1.5 rounded-2xl gap-3 bg-white/10 hover:bg-white/20 border border-white/20">
-                Github
-              </button>
+              <Button>Github</Button>
             </a>
             <a
               href="https://www.linkedin.com/in/viniciusrofifaria/"
               target="_blank"
             >
-              <button className="px-3 py-1.5 rounded-2xl gap-3 bg-white/10 hover:bg-white/20 border border-white/20">
-                LinkedIn
-              </button>
+              <Button>LinkedIn</Button>
             </a>
           </div>
         </section>
