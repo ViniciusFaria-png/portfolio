@@ -26,6 +26,10 @@ export default function Home() {
           {/* text */}
           <p className="text-sm sm:text-base md:tex-lg text-gray-400 max-w-xl leading-relaxed font-light">
             Transformo ideias em solucoes tecnológicas robustas e escaláveis.
+            Acredito que tecnologia deve simplificar a vida das pessoas. Por
+            isso, dedico-me a criar soluções que não apenas funcionem, mas que
+            sejam intuitivas, seguras e preparadas para crescer junto com o
+            negócio.
           </p>
           {/* skills */}
           <div className="flex flex-wrap gap-3 mt-5">

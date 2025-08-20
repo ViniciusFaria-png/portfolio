@@ -8,6 +8,6 @@ export default function SkillBanner({
   className = "",
 }: SkillBannerProps) {
   const baseClasses =
-    "px-3 py-1.5 sm:block rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm text-gray-400 hover:bg-white/30 transition-colors";
+    "cursor-default px-3 py-1.5 sm:block rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm text-gray-400 hover:bg-white/30 transition-colors";
   return <span className={`${baseClasses} ${className}`}>{children}</span>;
 }
