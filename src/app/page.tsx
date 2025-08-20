@@ -1,4 +1,5 @@
 import Button from "@/components/atoms/Button";
+import SkillBanner from "@/components/atoms/SkillBox";
 
 export default function Home() {
   return (
@@ -28,27 +29,13 @@ export default function Home() {
           </p>
           {/* skills */}
           <div className="flex flex-wrap gap-3 mt-5">
-            <span className="px-3 py-1.5 sm:block rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm text-gray-400 hover:bg-white/30 transition-colors">
-              Node.js
-            </span>
-            <span className="px-3 py-1.5 sm:block rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm text-gray-400 hover:bg-white/30 transition-colors">
-              JavaScript
-            </span>
-            <span className="px-3 py-1.5 sm:block rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm text-gray-400 hover:bg-white/30 transition-colors">
-              TypeScript
-            </span>
-            <span className="px-3 py-1.5 sm:block rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm text-gray-400 hover:bg-white/30 transition-colors">
-              PostgreSQL
-            </span>
-            <span className="px-3 py-1.5 sm:block rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm text-gray-400 hover:bg-white/30 transition-colors">
-              MongoDB
-            </span>
-            <span className="px-3 py-1.5 sm:block rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm text-gray-400 hover:bg-white/30 transition-colors">
-              Python
-            </span>
-            <span className="px-3 py-1.5 sm:block rounded-full bg-white/10 border border-white/20 text-xs sm:text-sm text-gray-400 hover:bg-white/30 transition-colors">
-              Java
-            </span>
+            <SkillBanner>Node.js</SkillBanner>
+            <SkillBanner>JavaScript</SkillBanner>
+            <SkillBanner>TypeScript</SkillBanner>
+            <SkillBanner>PostgreSQL</SkillBanner>
+            <SkillBanner>MongoDB</SkillBanner>
+            <SkillBanner>Python</SkillBanner>
+            <SkillBanner>Java</SkillBanner>
           </div>
           {/* buttons */}
           <div className="flex flex-row gap-3 mt-5  flex-wrap">
@@ -59,7 +46,7 @@ export default function Home() {
               <Button>Contato</Button>
             </a>
           </div>
-
+          {/* buttons */}
           <div className="flex flex-row gap-3 mt-5 flex-wrap">
             <a href="https://github.com/ViniciusFaria-png" target="_blank">
               <Button>Github</Button>
