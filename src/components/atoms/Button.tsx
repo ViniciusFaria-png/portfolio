@@ -14,9 +14,9 @@ export default function Button({
   variant = "primary",
 }: ButtonProps) {
   const baseClasses =
-    "cursor-pointer px-3 py-1.5 rounded-2xl transition-colors duration-200";
+    "cursor-pointer w-40 lg:w-36 px-3 py-1.5 h-10 rounded-xl transition-colors duration-200";
   const variantClasses = {
-    primary: "bg-white/10 hover:bg-white/20 border border-white/20",
+    primary: "bg-white/1 hover:bg-white/20 border border-white/20",
     secondary: "bg-gray/10 hover:bg-gray/20 border border-gray/20",
   };
 
