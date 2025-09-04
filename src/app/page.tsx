@@ -1,5 +1,6 @@
 import AboutSection from "@/pages/AboutSection";
 import EducationSection from "@/pages/EducationSection";
+import ExperienceSection from "@/pages/ExperienceSection";
 import Hero from "@/pages/HeroSection";
 
 export default function Home() {
@@ -9,11 +10,12 @@ export default function Home() {
         <Hero></Hero>
         <AboutSection></AboutSection>
         <EducationSection></EducationSection>
+
         <section id="TECHNICAL EXPERTISE">
           <p>Expertise técnica</p>
         </section>
         <section id="EXPERIENCE">
-          <p>Experiência</p>
+          <ExperienceSection></ExperienceSection>
         </section>
         <section id="PORTFOLIO">
           <p>Portfolio</p>
