@@ -1,6 +1,7 @@
 import Button from "@/components/atoms/Button";
 import SkillBanner from "@/components/atoms/SkillBox";
 import Image from "next/image";
+import HeroImg from "../assets/images/programming-guy.svg";
 
 export default function Hero() {
   return (
@@ -52,11 +53,7 @@ export default function Hero() {
           <a href="#CONTATO">
             <Button>Contato</Button>
           </a>
-          <a
-            href="/cv/vinicius.pdf"
-            download="vinicius_faria-cv"
-            target="_blank"
-          >
+          <a href="cv/vinicius_faria_cv.pdf" download="vinicius_faria-cv">
             <Button>Currículo</Button>
           </a>
         </div>
@@ -101,7 +98,7 @@ export default function Hero() {
         {/* image */}
         <div className="hidden lg:block">
           <Image
-            src="/images/programming-guy.svg"
+            src={HeroImg}
             alt="Developer illustration"
             width={500}
             height={300}
