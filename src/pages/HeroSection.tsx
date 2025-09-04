@@ -1,7 +1,6 @@
 import Button from "@/components/atoms/Button";
 import SkillBanner from "@/components/atoms/SkillBox";
 import Image from "next/image";
-import HeroImg from "../assets/images/programming-guy.svg";
 
 export default function Hero() {
   return (
@@ -98,7 +97,7 @@ export default function Hero() {
         {/* image */}
         <div className="hidden lg:block">
           <Image
-            src={HeroImg}
+            src="/images/programming-guy.svg"
             alt="Developer illustration"
             width={500}
             height={300}
