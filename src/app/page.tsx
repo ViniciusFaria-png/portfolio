@@ -1,4 +1,5 @@
 import AboutSection from "@/pages/AboutSection";
+import EducationSection from "@/pages/EducationSection";
 import Hero from "@/pages/HeroSection";
 
 export default function Home() {
@@ -7,9 +8,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Hero></Hero>
         <AboutSection></AboutSection>
-        <section id="EDUCATION">
-          <p>Educação</p>
-        </section>
+        <EducationSection></EducationSection>
         <section id="TECHNICAL EXPERTISE">
           <p>Expertise técnica</p>
         </section>
